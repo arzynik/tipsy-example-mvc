@@ -60,12 +60,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/arzynik/tipsy-mvc.git",
-                "reference": "d65d9be31a6e76fa3cc9b7e6ef72d4187b8eb9fd"
+                "reference": "4f18f2f0a7bcc555f014e7efc9c1e556d6464155"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/arzynik/tipsy-mvc/zipball/d65d9be31a6e76fa3cc9b7e6ef72d4187b8eb9fd",
-                "reference": "d65d9be31a6e76fa3cc9b7e6ef72d4187b8eb9fd",
+                "url": "https://api.github.com/repos/arzynik/tipsy-mvc/zipball/4f18f2f0a7bcc555f014e7efc9c1e556d6464155",
+                "reference": "4f18f2f0a7bcc555f014e7efc9c1e556d6464155",
                 "shasum": ""
             },
             "require": {
@@ -104,7 +104,7 @@
                 "php",
                 "plugin"
             ],
-            "time": "2015-12-04 22:53:31"
+            "time": "2015-12-04 23:09:26"
         }
     ],
     "packages-dev": [],
