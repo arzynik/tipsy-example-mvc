@@ -12,9 +12,8 @@ class About extends \Tipsy\Controller {
 		parent::init();
 
 		$this->inject(function($View, $Request, $Scope, $User) {
-			// @todo: for some reason $Scope is not being bound correctly
 			$Scope->about = $User->data($Request->loc(1));
 			$View->display('about');
-		}, $this->tipsy()->view()->scope());
+		});
 	}
 }
