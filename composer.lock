@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9479f3014ec494c60b5aaa2db938f64c",
-    "content-hash": "df7eb7062155ccf15dee7598bda32ef4",
+    "hash": "074507bb87a09101accc107e4d88f204",
+    "content-hash": "0276c0948095fc2b2afcf12bb755bcd3",
     "packages": [
         {
             "name": "arzynik/tipsy",
@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/arzynik/tipsy.git",
-                "reference": "591cb1daff683ca544ee3bec48615834af8f15c5"
+                "reference": "c0e6893d6b86dd49feb686a9eadfde8927836311"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/arzynik/tipsy/zipball/591cb1daff683ca544ee3bec48615834af8f15c5",
-                "reference": "591cb1daff683ca544ee3bec48615834af8f15c5",
+                "url": "https://api.github.com/repos/arzynik/tipsy/zipball/c0e6893d6b86dd49feb686a9eadfde8927836311",
+                "reference": "c0e6893d6b86dd49feb686a9eadfde8927836311",
                 "shasum": ""
             },
             "require": {
@@ -29,8 +29,8 @@
             },
             "type": "library",
             "autoload": {
-                "psr-0": {
-                    "Tipsy": "src/"
+                "psr-4": {
+                    "Tipsy\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -52,14 +52,67 @@
                 "mvw",
                 "php"
             ],
-            "time": "2015-12-04 15:22:26"
+            "time": "2015-12-04 19:26:53"
+        },
+        {
+            "name": "arzynik/tipsy-mvc",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/arzynik/tipsy-mvc.git",
+                "reference": "d65d9be31a6e76fa3cc9b7e6ef72d4187b8eb9fd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/arzynik/tipsy-mvc/zipball/d65d9be31a6e76fa3cc9b7e6ef72d4187b8eb9fd",
+                "reference": "d65d9be31a6e76fa3cc9b7e6ef72d4187b8eb9fd",
+                "shasum": ""
+            },
+            "require": {
+                "arzynik/tipsy": "dev-master",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "satooshi/php-coveralls": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Tipsy\\MVC\\": "src/"
+                },
+                "files": [
+                    "src/Run.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Devin Smith",
+                    "email": "devin@tipsy.la",
+                    "homepage": "http://devin.la",
+                    "role": "Developer"
+                }
+            ],
+            "description": "An MVC extension for Tipsy",
+            "keywords": [
+                "extension",
+                "framework",
+                "mvc",
+                "php",
+                "plugin"
+            ],
+            "time": "2015-12-04 22:53:31"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "arzynik/tipsy": 20
+        "arzynik/tipsy": 20,
+        "arzynik/tipsy-mvc": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

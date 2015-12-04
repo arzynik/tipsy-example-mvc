@@ -1,10 +1,16 @@
 {
 	"require": {
-		"arzynik/tipsy": "dev-master"
+		"arzynik/tipsy": "dev-master",
+		"arzynik/tipsy-mvc": "dev-master"
 	},
 	"autoload": {
 		"psr-4": {
 			"App\\": "app/models/"
 		}
+	},
+	"scripts": {
+		"post-install-cmd": [
+			"php vendor/arzynik/tipsy-mvc/install.php"
+		]
 	}
 }
