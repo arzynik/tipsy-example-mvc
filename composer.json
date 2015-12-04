@@ -1,0 +1,10 @@
+{
+	"require": {
+		"arzynik/tipsy": "dev-master"
+	},
+	"autoload": {
+		"psr-4": {
+			"App\\": "app/models/"
+		}
+	}
+}

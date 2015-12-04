@@ -1,0 +1,8 @@
+{
+	"name": "Tipsy MVC Example",
+	"description": "A Structured MVC example with auto inclusion of libraries",
+	"website": "http://tipsy.la",
+	"repository": "https://github.com/arzynik/tipsy-mvc",
+	"keywords": ["tipsy", "mvc", "framework"],
+	"logo": "http://tipsy.la/images/cocktail.png"
+}
