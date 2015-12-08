@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/arzynik/tipsy.git",
-                "reference": "c0e6893d6b86dd49feb686a9eadfde8927836311"
+                "reference": "66e744a17a1f93360a1172abfdcfc7e14a9c1159"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/arzynik/tipsy/zipball/c0e6893d6b86dd49feb686a9eadfde8927836311",
-                "reference": "c0e6893d6b86dd49feb686a9eadfde8927836311",
+                "url": "https://api.github.com/repos/arzynik/tipsy/zipball/66e744a17a1f93360a1172abfdcfc7e14a9c1159",
+                "reference": "66e744a17a1f93360a1172abfdcfc7e14a9c1159",
                 "shasum": ""
             },
             "require": {
@@ -31,7 +31,10 @@
             "autoload": {
                 "psr-4": {
                     "Tipsy\\": "src/"
-                }
+                },
+                "files": [
+                    "src/Tipsy.php"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -52,7 +55,7 @@
                 "mvw",
                 "php"
             ],
-            "time": "2015-12-04 19:26:53"
+            "time": "2015-12-08 18:40:18"
         },
         {
             "name": "arzynik/tipsy-mvc",
@@ -60,12 +63,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/arzynik/tipsy-mvc.git",
-                "reference": "4f18f2f0a7bcc555f014e7efc9c1e556d6464155"
+                "reference": "a54b396b5864448ba0b16dde9f1c6a1b2d950356"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/arzynik/tipsy-mvc/zipball/4f18f2f0a7bcc555f014e7efc9c1e556d6464155",
-                "reference": "4f18f2f0a7bcc555f014e7efc9c1e556d6464155",
+                "url": "https://api.github.com/repos/arzynik/tipsy-mvc/zipball/a54b396b5864448ba0b16dde9f1c6a1b2d950356",
+                "reference": "a54b396b5864448ba0b16dde9f1c6a1b2d950356",
                 "shasum": ""
             },
             "require": {
@@ -104,7 +107,7 @@
                 "php",
                 "plugin"
             ],
-            "time": "2015-12-04 23:09:26"
+            "time": "2015-12-05 00:02:07"
         }
     ],
     "packages-dev": [],
