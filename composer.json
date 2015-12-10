@@ -1,7 +1,7 @@
 {
 	"require": {
-		"arzynik/tipsy": "dev-master",
-		"arzynik/tipsy-mvc": "dev-master"
+		"tipsyphp/tipsy": "dev-master",
+		"tipsyphp/tipsy-mvc": "dev-master"
 	},
 	"autoload": {
 		"psr-4": {
@@ -10,7 +10,7 @@
 	},
 	"scripts": {
 		"post-install-cmd": [
-			"php vendor/arzynik/tipsy-mvc/install.php"
+			"php vendor/tipsyphp/tipsy-mvc/install.php"
 		]
 	}
 }

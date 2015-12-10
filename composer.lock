@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "074507bb87a09101accc107e4d88f204",
-    "content-hash": "0276c0948095fc2b2afcf12bb755bcd3",
+    "hash": "8c346638d51033b8cf2996a9338ce9c2",
+    "content-hash": "bc1b783c3e15303660c286ef89651ef8",
     "packages": [
         {
-            "name": "arzynik/tipsy",
+            "name": "tipsyphp/tipsy",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/arzynik/tipsy.git",
-                "reference": "50f695160cb12b98f81f90b0294e35472087827d"
+                "url": "https://github.com/tipsyphp/tipsy.git",
+                "reference": "43f0aa5f311a67dd1305e79616220a9e88b1b7ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/arzynik/tipsy/zipball/50f695160cb12b98f81f90b0294e35472087827d",
-                "reference": "50f695160cb12b98f81f90b0294e35472087827d",
+                "url": "https://api.github.com/repos/tipsyphp/tipsy/zipball/43f0aa5f311a67dd1305e79616220a9e88b1b7ff",
+                "reference": "43f0aa5f311a67dd1305e79616220a9e88b1b7ff",
                 "shasum": ""
             },
             "require": {
@@ -55,26 +55,25 @@
                 "mvw",
                 "php"
             ],
-            "abandoned": "https://github.com/tipsyphp/tipsy",
-            "time": "2015-12-09 20:47:19"
+            "time": "2015-12-10 18:36:21"
         },
         {
-            "name": "arzynik/tipsy-mvc",
+            "name": "tipsyphp/tipsy-mvc",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/arzynik/tipsy-mvc.git",
-                "reference": "a54b396b5864448ba0b16dde9f1c6a1b2d950356"
+                "url": "https://github.com/tipsyphp/tipsy-mvc.git",
+                "reference": "f3b3812c8cae97b47e2d2f3e1eb1ba7ce0db0a7d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/arzynik/tipsy-mvc/zipball/a54b396b5864448ba0b16dde9f1c6a1b2d950356",
-                "reference": "a54b396b5864448ba0b16dde9f1c6a1b2d950356",
+                "url": "https://api.github.com/repos/tipsyphp/tipsy-mvc/zipball/f3b3812c8cae97b47e2d2f3e1eb1ba7ce0db0a7d",
+                "reference": "f3b3812c8cae97b47e2d2f3e1eb1ba7ce0db0a7d",
                 "shasum": ""
             },
             "require": {
-                "arzynik/tipsy": "dev-master",
-                "php": ">=5.4.0"
+                "php": ">=5.4.0",
+                "tipsyphp/tipsy": "dev-master"
             },
             "require-dev": {
                 "satooshi/php-coveralls": "dev-master"
@@ -108,15 +107,15 @@
                 "php",
                 "plugin"
             ],
-            "time": "2015-12-05 00:02:07"
+            "time": "2015-12-10 18:52:18"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "arzynik/tipsy": 20,
-        "arzynik/tipsy-mvc": 20
+        "tipsyphp/tipsy": 20,
+        "tipsyphp/tipsy-mvc": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
