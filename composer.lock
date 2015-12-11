@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/tipsyphp/tipsy.git",
-                "reference": "43f0aa5f311a67dd1305e79616220a9e88b1b7ff"
+                "reference": "f2e41a8f27e598329eca353d8bc6e060fce36cf1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tipsyphp/tipsy/zipball/43f0aa5f311a67dd1305e79616220a9e88b1b7ff",
-                "reference": "43f0aa5f311a67dd1305e79616220a9e88b1b7ff",
+                "url": "https://api.github.com/repos/tipsyphp/tipsy/zipball/f2e41a8f27e598329eca353d8bc6e060fce36cf1",
+                "reference": "f2e41a8f27e598329eca353d8bc6e060fce36cf1",
                 "shasum": ""
             },
             "require": {
@@ -55,7 +55,7 @@
                 "mvw",
                 "php"
             ],
-            "time": "2015-12-10 18:36:21"
+            "time": "2015-12-10 19:12:40"
         },
         {
             "name": "tipsyphp/tipsy-mvc",
@@ -63,12 +63,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/tipsyphp/tipsy-mvc.git",
-                "reference": "f3b3812c8cae97b47e2d2f3e1eb1ba7ce0db0a7d"
+                "reference": "55623347ac980341874f24a38475cde7393a10da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tipsyphp/tipsy-mvc/zipball/f3b3812c8cae97b47e2d2f3e1eb1ba7ce0db0a7d",
-                "reference": "f3b3812c8cae97b47e2d2f3e1eb1ba7ce0db0a7d",
+                "url": "https://api.github.com/repos/tipsyphp/tipsy-mvc/zipball/55623347ac980341874f24a38475cde7393a10da",
+                "reference": "55623347ac980341874f24a38475cde7393a10da",
                 "shasum": ""
             },
             "require": {
@@ -107,7 +107,7 @@
                 "php",
                 "plugin"
             ],
-            "time": "2015-12-10 18:52:18"
+            "time": "2015-12-11 02:18:24"
         }
     ],
     "packages-dev": [],
