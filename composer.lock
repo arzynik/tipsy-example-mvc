@@ -13,19 +13,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/tipsyphp/tipsy.git",
-                "reference": "39f063a450630cb65d4f3ced9c2ec77763631d8e"
+                "reference": "aef32fdf701aae5e2f7eecdad5374b76d413f58e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tipsyphp/tipsy/zipball/39f063a450630cb65d4f3ced9c2ec77763631d8e",
-                "reference": "39f063a450630cb65d4f3ced9c2ec77763631d8e",
+                "url": "https://api.github.com/repos/tipsyphp/tipsy/zipball/aef32fdf701aae5e2f7eecdad5374b76d413f58e",
+                "reference": "aef32fdf701aae5e2f7eecdad5374b76d413f58e",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.5.0"
             },
             "require-dev": {
-                "satooshi/php-coveralls": "dev-master"
+                "satooshi/php-coveralls": "0.7.0"
             },
             "type": "library",
             "autoload": {
@@ -55,7 +55,7 @@
                 "mvw",
                 "php"
             ],
-            "time": "2016-05-31 19:14:29"
+            "time": "2016-05-31 19:19:12"
         },
         {
             "name": "tipsyphp/tipsy-mvc",
@@ -63,12 +63,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/tipsyphp/tipsy-mvc.git",
-                "reference": "55623347ac980341874f24a38475cde7393a10da"
+                "reference": "3f19fdf66d1060d805ee24793a4f145d63e5d2e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tipsyphp/tipsy-mvc/zipball/55623347ac980341874f24a38475cde7393a10da",
-                "reference": "55623347ac980341874f24a38475cde7393a10da",
+                "url": "https://api.github.com/repos/tipsyphp/tipsy-mvc/zipball/3f19fdf66d1060d805ee24793a4f145d63e5d2e3",
+                "reference": "3f19fdf66d1060d805ee24793a4f145d63e5d2e3",
                 "shasum": ""
             },
             "require": {
@@ -107,7 +107,7 @@
                 "php",
                 "plugin"
             ],
-            "time": "2015-12-11 02:18:24"
+            "time": "2016-10-21 05:39:06"
         }
     ],
     "packages-dev": [],
